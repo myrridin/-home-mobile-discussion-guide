@@ -1,0 +1,27 @@
+/* Custom CSS Styles */
+
+/* Social Icons */
+[class*="zocial-"]:before {
+    font-family: 'zocial', sans-serif;
+}
+/* End Social Icons */
+
+/* Home Page */
+#home_title {
+    background-image: url('../img/home_header.jpg');
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    padding: 3.5em 0 0.5em;
+    text-align: center;
+    font-size: 1.4em;
+    font-weight: bold;
+}
+    #home_title h1 {
+        color: #FFF;
+        text-shadow: -1px 0 #000, 0 1px #000, 1px 0 #000, 0 -1px #000;
+    }
+    #home_title p {
+        color: #6593db;
+    }
